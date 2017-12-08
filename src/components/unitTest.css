@@ -1,0 +1,129 @@
+.unitText_box{
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.unitText_header,.unitText_body{
+  margin: 20px;
+  background: #e2ebec;
+  font-size: 20px;
+}
+.unitText_header{
+  height: 100px;
+  line-height: 100px;
+  font-size: 24px;
+}
+.functionName_input{
+  width: 250px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.DynamicTest_checkbox{
+  margin-left: 20px;
+}
+.DynamicTest{
+  font-size: 18px;
+}
+.unitText_body::after{
+  content:".";
+  visibility:hidden;
+  display:block;
+  clear:both;
+}
+.unitTest_close{
+  margin-right:20px;
+  float: right;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #2199e8;
+  background: #e2ebec;
+  font-size: 30px;
+  cursor: pointer;
+
+
+}
+.inputNum_box{
+ float: left;
+ width: 50%;
+}
+
+.input_num,.subtraction,.plus{
+ width: 80px;
+ height: 40px;
+ text-align: center;
+ font-size: 20px;
+ background:transparent;
+ border: 1px solid #999;
+ margin-right: 5px;
+ cursor: pointer;
+}
+
+.subtraction{
+  width: 40px;
+  border:1px solid red;
+}
+.plus{
+  width: 40px;
+  border: 1px solid #2199e8;
+}
+.visibility{
+float: right;
+width: 50%;
+font-size: 20px;
+}
+.visibility_title{
+  color:#333;
+  font-weight: bold;
+}
+.visibility_radio{
+  display: block;
+  margin-top: 10px;
+}
+.ExpectedOutput{
+  float: left;
+  width: 50%;
+  font-weight: bold;
+}
+.ExpectedOutput_input{
+  width: 200px;
+  height: 30px;
+}
+.TestDescription{
+  float: left;
+  fontw
+  margin: 10px 0 0 30px;
+}
+
+.TestDescription_textarea{
+  /*float: left;*/
+  width: 500px;
+  /*margin:10px 100px;*/
+  height: 50px;
+}
+.TestDescription_title{
+  display: block;
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+
+}
+.newtest{
+  width: 50%;
+  margin:10px 50px;
+}
+.newtest_button{
+  width: 125px;
+  height: 58px;
+  text-align: center;
+  background: #2199e8;
+  color: #fff;
+  border: none;
+  margin: 10px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
